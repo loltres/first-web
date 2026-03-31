@@ -67,3 +67,21 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+@media (max-width: 380px) {
+    header h1 {
+        font-size: 1rem;
+    }
+    
+    section h2 {
+        font-size: 1rem;
+    }
+    
+    section p, section ul {
+        font-size: 0.8rem;
+    }
+    
+    button {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
